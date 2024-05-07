@@ -86,7 +86,21 @@ fprintf(file_identifier,"Max temp       %4.2f C \nMin temp       %4.2f C \nAvera
 % The file is closed through specifying the file identifier and printing is stopped.
 fclose(file_identifier) ;
 %% TASK 2 - LED TEMPERATURE MONITORING DEVICE IMPLEMENTATION [25 MARKS]
+clear 
 
+% 1) Preliminary flow chart submitted into repository
+
+% 2) temp_monitor.m contains a function 'temp_monitor'
+
+% - Calling the function (from 'function temp_monitor(a, v0, Ct, time_array, temp_array)')
+temp_monitor(arduino('COM3','UNO'), 0.5, 0.01, [], [])
+% (a, v0, Ct, time_array, temp_array) are inputs that have to be defined when calling the function. i.e 'a' = arduino('COM3','UNO')
+
+%% 
+% 3) Documentation
+doc temp_monitor
+
+% 4) Final flow chart submitted into repository
 
 %% TASK 3 - ALGORITHMS – TEMPERATURE PREDICTION [25 MARKS]
 
