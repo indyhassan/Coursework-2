@@ -117,4 +117,40 @@ doc temp_prediction
 
 %% TASK 4 - REFLECTIVE STATEMENT [5 MARKS]
 
-% Insert answers here
+% This project has allowed me to build upon the skills I have learnt in
+% previous courseworks whilst challenging me by introducing new ways of
+% coding such as the intergration of hardware into MATLAB. Each task
+% started with the initial challenge of setting up the breadboard. I started this project with very limited knoweldge on this, but after
+% research and trail and error, I didnt have any issues with the
+% installement or use of the hardware and I feel like this element
+% stregnthened my project. 
+% 
+% The use of a variable to act as time in seconds, which is equal to the
+% value in the array that the for loop works through, increasing by 1 each
+% iteration, was a strength of my project as it made working with time
+% accessable and stright forward. I see this as a strength. 
+% 
+% One limitation of my project was noticable in Task 2 and 3 where the
+% section for turning LED lights on and off was long and felt inefficient,
+% although it did work. This was a real challenge for me to do, especially
+% as each iteration had to be a second and having two sperate for loops,
+% one for monitoring and one for LED lights was out of my knowledge
+% range. Instead of checking the temperature against each temperature range
+% every single cycle, it would be an improvement to check if there was a
+% change in temperature range and then proceed to change LED lights.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
