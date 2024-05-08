@@ -92,9 +92,9 @@ clear
 
 % 2) temp_monitor.m contains a function 'temp_monitor'
 
-% - Calling the function (from 'function temp_monitor(a, v0, Ct, time_array, temp_array)')
-temp_monitor(arduino('COM3','UNO'), 0.5, 0.01, [], [])
-% (a, v0, Ct, time_array, temp_array) are inputs that have to be defined when calling the function. i.e 'a' = arduino('COM3','UNO')
+% - Calling the function 
+temp_monitor(arduino('COM3','UNO'), 0.5, 0.01, [], []) %(function temp_monitor(a, v0, Ct, time_array, temp_array))
+% (a, v0, Ct, time_array, temp_array) are inputs for the function. i.e 'a' = arduino('COM3','UNO')
 
 %% 
 % 3) Documentation
@@ -103,9 +103,17 @@ doc temp_monitor
 % 4) Final flow chart submitted into repository
 
 %% TASK 3 - ALGORITHMS – TEMPERATURE PREDICTION [25 MARKS]
+clear
 
-% Insert answers here
+% Preliminary flow chart submitted into repository
 
+% temp_prediction.m contains a function 'temp_prediction'
+temp_prediction(arduino('COM3','UNO'), 0.5, 0.01) % - Calling the function 
+% (a, v0, Ct) are inputs for the function
+
+%%
+% temp_prediction documentation
+doc temp_prediction
 
 %% TASK 4 - REFLECTIVE STATEMENT [5 MARKS]
 
